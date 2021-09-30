@@ -1,0 +1,19 @@
+{
+    "name": "hermes/order-export",
+    "description": "Review order and add comments before send to ERP",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/module-sales": "^103.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hermes\\OrderExport\\": ""
+        }
+    }
+}
+
